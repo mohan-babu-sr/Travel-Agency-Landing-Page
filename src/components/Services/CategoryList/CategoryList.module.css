@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.cl_container {
+  /* border: 1px solid black; */
+  width: 84.9vw;
+  display: flex;
+  margin: 0;
+  margin-top: 12vh;
+}
+
+.cl_card {
+  margin: auto;
+  width: 15vw;
+  height: 35vh;
+  cursor: pointer;
+  /* border: 1px solid black; */
+
+  background: #ffffff;
+  border-radius: 2.5vmax;
+}
+
+.cl_card:hover {
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  transform: scale(1.08);
+  filter: blur(0px);
+  opacity: 1;
+}
+
+.cl_card:active {
+  background-image: url('../../../content/categoryActive.png');
+  background-repeat: no-repeat;
+  /* margin-left: -10px; */
+  /* position: relative; */
+  /* background: black; */
+  background-position-x: -60px;
+}
+
+.cl_card_container {
+  margin: auto;
+  width: 5vw;
+  height: 13vh;
+  /* border: 1px solid red; */
+}
+
+.cl_card img {
+  margin: auto;
+  width: 5vw;
+  /* margin-left: 5vw; */
+  /* margin-right: auto; */
+  margin-top: 3vh;
+  /* margin-bottom: 25px; */
+}
+
+.cl_card_title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vmax;
+  line-height: 2.3vh;
+  text-align: center;
+  color: #1e1d4c;
+  margin: 3vh 0;
+}
+
+.cl_card_desc {
+  width: 11vw;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 0.9vmax;
+  line-height: 3vh;
+
+  text-align: center;
+  color: #5e6282;
+}

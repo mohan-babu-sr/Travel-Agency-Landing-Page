@@ -1,0 +1,32 @@
+.ellipse8 {
+  /* border: 1px solid black; */
+  /* Ellipse 8 */
+
+  position: absolute;
+  width: 478.94px;
+  height: 496.86px;
+  left: -400px;
+  top: -59.84px;
+
+  background: #d5aee4;
+  opacity: 0.5;
+  filter: blur(150px);
+}
+
+.decore {
+  /* border: 1px solid black; */
+  width: 676.31px;
+  height: 872.58px;
+  /* margin-top: auto; */
+  margin-top: -75px;
+  margin-left: auto;
+  background: url('../../../content/Decore.png') no-repeat;
+  background-size: 720px 648px;
+}
+
+@media all and (max-width: 600px) {
+  .decore {
+    width: 276.31px;
+    height: 872.58px;
+  }
+}

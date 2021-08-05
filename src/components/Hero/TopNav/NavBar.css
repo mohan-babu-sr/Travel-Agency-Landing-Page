@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  /* margin-top: 7px; */
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+li {
+  margin: auto;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+a {
+  color: #212832;
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+
+  /* border: 1px solid black; */
+  display: flex;
+  width: 82%;
+  margin: auto;
+  justify-content: space-between;
+  min-height: 5vh;
+  align-items: center;
+}
+
+nav .logo {
+  margin-top: 10px;
+}
+
+.logoimage {
+  height: 33px;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  width: 63%;
+}
+
+nav .nav-links a:hover {
+  color: #df6951;
+  border-bottom: 3px solid #df6951;
+}
+
+nav .burger {
+  cursor: pointer;
+  font-size: 25px;
+  display: none;
+}
+
+@media all and (max-width: 600px) {
+  * {
+    margin-top: 0px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav .logo {
+    margin-left: 10px;
+  }
+  nav .burger {
+    margin-right: 10px;
+    display: block;
+  }
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    background: #df6951;
+    /* color: white; */
+    padding: 40px;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+  }
+
+  nav .nav-links li {
+    padding: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  nav .nav-links li:last-of-type {
+    border-bottom: 0px solid rgb(255, 255, 255);
+  }
+  nav .nav-links a:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+}
+
+/* Button */
+.navbutton {
+  cursor: pointer;
+
+  width: 102px;
+  height: 40px;
+  background: none;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+.navbutton:hover {
+  background-color: #df6951;
+  /* border: 3px solid #df6951; */
+  /* border: white; */
+}
+
+/* Dropdown */
+.navdropdown {
+  margin-right: -26px;
+  width: 38.5px;
+  height: 22px;
+  background-color: #fff1da;
+  cursor: pointer;
+
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.navdropdown:hover {
+  background-color: #df6951;
+  border-radius: 5px;
+  color: white;
+  border-bottom: 3px solid #df6951;
+}

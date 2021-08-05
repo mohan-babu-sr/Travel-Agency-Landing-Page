@@ -1,0 +1,38 @@
+.cp_container {
+  width: 80%;
+  /* border: 1px solid #5e6282; */
+  margin: auto;
+}
+
+.cp_heading {
+  /* position: relative; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vmax;
+  line-height: 4vh;
+
+  text-align: center;
+
+  color: #5e6282;
+
+  /* margin-right: auto; */
+  margin-left: auto;
+  padding-top: 3vmax;
+}
+
+.cp_subheading {
+  font-family: 'Volkhov';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vmax;
+  line-height: 10vh;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* 3rd */
+
+  color: #14183e;
+}
