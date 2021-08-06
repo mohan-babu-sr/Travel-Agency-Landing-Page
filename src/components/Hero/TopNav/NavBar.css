@@ -14,7 +14,7 @@ li {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 0.95vmax;
 }
 
 a {
@@ -27,7 +27,7 @@ nav {
 
   /* border: 1px solid black; */
   display: flex;
-  width: 82%;
+  width: 81vw;
   margin: auto;
   justify-content: space-between;
   min-height: 5vh;
@@ -35,17 +35,17 @@ nav {
 }
 
 nav .logo {
-  margin-top: 10px;
+  margin-top: 0.8vmax;
 }
 
 .logoimage {
-  height: 33px;
+  height: 4vh;
 }
 
 nav .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 63%;
+  width: 51vw;
 }
 
 nav .nav-links a:hover {
@@ -55,11 +55,11 @@ nav .nav-links a:hover {
 
 nav .burger {
   cursor: pointer;
-  font-size: 25px;
+  /* font-size: 25px; */
   display: none;
 }
 
-@media all and (max-width: 600px) {
+/* @media all and (max-width: 600px) {
   * {
     margin-top: 0px;
   }
@@ -81,7 +81,6 @@ nav .burger {
     width: 50%;
     height: 100vh;
     background: #df6951;
-    /* color: white; */
     padding: 40px;
     transform: translateX(-500px);
     transition: 0.5s ease-in-out;
@@ -97,20 +96,21 @@ nav .burger {
   nav .nav-links a:hover {
     border-bottom: 1px solid rgb(255, 255, 255);
   }
-}
+} */
 
 /* Button */
 .navbutton {
   cursor: pointer;
 
-  width: 102px;
-  height: 40px;
+  width: 7vw;
+  height: 5vh;
   background: none;
-  border-radius: 5px;
+  border-radius: 0.5vmax;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 17px;
+  font-size: 1.1vmax;
+  border: 0.11vmax solid black;
 }
 
 .navbutton:hover {
@@ -121,9 +121,9 @@ nav .burger {
 
 /* Dropdown */
 .navdropdown {
-  margin-right: -26px;
-  width: 38.5px;
-  height: 22px;
+  margin-right: -1.7vmax;
+  width: 2.7vw;
+  height: 3vh;
   background-color: #fff1da;
   cursor: pointer;
 
@@ -131,11 +131,12 @@ nav .burger {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 1vmax;
 }
 
 .navdropdown:hover {
   background-color: #df6951;
-  border-radius: 5px;
+  border-radius: 0.2vmax;
   color: white;
   border-bottom: 3px solid #df6951;
 }

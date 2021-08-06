@@ -1,0 +1,49 @@
+.tcd_container {
+  /* border: 1px solid rgb(0, 60, 255); */
+  width: 34vw;
+  height: 99.7vh;
+  /* background: rgb(116, 116, 216); */
+  margin: auto;
+  margin-left: -2vw;
+}
+
+.tcd_decore {
+  margin-left: auto;
+  width: 40vw;
+  height: 49vw;
+  border: 0.1vmax solid rgb(255, 255, 255);
+
+  background-image: url('../../../content/tripDecore.png');
+  background-repeat: no-repeat;
+  background-size: 35vw 60vh;
+  background-position-x: 6vw;
+  /* background-position-y: -2vw; */
+}
+
+.tcd_parentcard {
+  /* border: 1px solid rgb(208, 255, 0); */
+  /* background: rgb(113, 113, 228); */
+
+  width: 24vw;
+  height: 25vw;
+  margin-top: 20vh;
+  margin-left: 4vw;
+  border-radius: 2vmax;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.tcd_parentcardimg1 {
+  /* border: 1px solid rgb(208, 255, 0); */
+  margin-left: -5.3vw;
+  margin-top: -0.3vw;
+  /* border-radius: 1.6vmax; */
+}
+.tcd_parentcardimg2 {
+  /* border: 1px solid rgb(208, 255, 0); */
+  margin-left: 9.15vw;
+  margin-top: -36.3vw;
+  margin-bottom: 5.3vw;
+  /* border-radius: 1.6vmax; */
+}

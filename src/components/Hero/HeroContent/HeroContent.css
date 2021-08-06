@@ -27,54 +27,56 @@
   font-family: 'Volkhov', serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 5vmax;
+  line-height: 5.2vmax;
   /* letter-spacing: -0.04em; */
   color: #181e4b;
-  margin-bottom: 25px;
+  margin-bottom: 1vmax;
 }
 .hero_content_1 span {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  line-height: 30px;
+  /* line-height: 30px; */
 
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.3vmax;
   color: #fa5652;
   text-transform: uppercase;
   color: #df6951;
 }
+
 .hero_content_2 {
   /* border: 1px solid rgb(9, 187, 89); */
-  width: 80%;
+  width: 30vw;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 190%;
-  margin-bottom: 25px;
+  font-size: 1.1vmax;
+  line-height: 4vh;
+  margin-bottom: 2vmax;
   font-family: 'Poppins';
 
   color: #5e6282;
 }
+
 .hero_div_btn {
   /* border: 1px solid black; */
   display: flex;
-  width: 68%;
+  width: 26vw;
   margin: 0;
 }
 .hero_button1 {
   /* margin-left: -50px; */
-  width: 150px;
-  height: 40px;
+  width: 10vw;
+  height: 6vh;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 29px;
+  font-size: 0.9vmax;
+  /* line-height: 29px; */
   color: #ffffff;
   background: #f1a501;
   box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-  border-radius: 10px;
+  border-radius: 0.5vmax;
   cursor: pointer;
 
   border: none;
@@ -88,9 +90,9 @@
   border-bottom: 3px solid #f1a501;
 }
 .hero_button2 {
-  margin-left: 30px;
-  width: 200px;
-  height: 40px;
+  margin-left: 2vmax;
+  width: 10vw;
+  height: 6vh;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -106,21 +108,20 @@
   border-bottom: 3px solid #f1a501;
 }
 .hero_button2 span {
-  font-size: 12px;
+  font-size: 0.8vmax;
   font-weight: 600;
   color: #686d77;
-  margin-top: 10px;
+  margin-top: 0.8vmax;
 }
 .hero_button2 img {
   /* margin-left: -20px; */
-  margin-top: -9px;
-  width: 78px;
+  margin-top: -0.4vmax;
+  width: 5vw;
 }
 
-@media all and (max-width: 1200px) {
+/* @media all and (max-width: 1200px) {
   .hero_contanier {
     position: absoute;
-    /* border: 1px solid red; */
     width: 100%;
   }
   .hero_çontents {
@@ -149,7 +150,6 @@
 @media all and (max-width: 1000px) {
   .hero_contanier {
     position: absoute;
-    /* border: 1px solid red; */
     width: 100%;
   }
   .hero_çontents {
@@ -178,7 +178,6 @@
 @media all and (max-width: 700px) {
   .hero_contanier {
     position: absoute;
-    /* border: 1px solid red; */
     width: 100%;
   }
   .hero_çontents {
@@ -204,7 +203,7 @@
     height: 30px;
     font-size: 10px;
   }
-}
+} */
 
 /* 
 .tagline {

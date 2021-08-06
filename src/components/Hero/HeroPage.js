@@ -11,9 +11,6 @@ const HeroPage = () => {
     <div className={classes.hp_container}>
       <NavBar />
       <HeroContent />
-
-      {/* <div className={classes.hp_plane1}></div> */}
-      {/* <div className={classes.hp_plane2}></div> */}
       <div className={classes.hp_decore}></div>
       <div className={classes.hp_ellipse8}></div>
       <div

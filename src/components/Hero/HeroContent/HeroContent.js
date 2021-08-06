@@ -12,15 +12,17 @@ const HeroContent = () => {
       <div className='hero_çontents'>
         <div className='hero_çontent'>
           <div className='hero_content_1'>
-            <span
-              data-aos='fade-up'
-              data-aos-delay='50'
-              data-aos-duration='1000'
-            >
+            <span data-aos='fade-up' data-aos-duration='3000'>
               Best Destinations around the world
             </span>
             <br />
-            Travel, enjoy and live a new and full life
+            <div
+              data-aos='fade-up'
+              data-aos-anchor-placement='center-center'
+              data-aos-duration='3000'
+            >
+              Travel, enjoy and live a new and full life
+            </div>
           </div>
           <p className='hero_content_2'>
             Built Wicket longer admire do barton vanity itself do in it.

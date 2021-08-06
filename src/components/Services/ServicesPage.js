@@ -13,7 +13,7 @@ const ServicesPage = () => {
         className={classes.sp_contents}
         data-aos='flip-up'
         data-aos-delay='50'
-        data-aos-duration='1000'
+        data-aos-duration='3000'
       >
         <Category />
         <div

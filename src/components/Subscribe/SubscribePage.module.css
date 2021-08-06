@@ -1,0 +1,112 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.subscribe_container {
+  border: 1px solid rgb(255, 255, 255);
+  /* position: absolute; */
+  height: 65vh;
+  width: 92vw;
+  margin: auto;
+  background-image: url('../../content/subscribeBG.jpg');
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+
+  background-size: 92vw 59vh;
+}
+
+.subscribe_background {
+  /* position: relative; */
+  /* border: 1px solid rgb(0, 0, 0); */
+
+  /* background-image: url('../../content/subBackground.jpg');
+  background-repeat: no-repeat;
+
+  background-size: 78vw 50vh; */
+  width: 78vw;
+  height: 50vh;
+  margin-top: 7.5vh;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe_heading {
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin: auto;
+  margin-top: 8vmax;
+  width: 60vw;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.2vmax;
+  line-height: 7vh;
+  text-align: center;
+  color: #5e6282;
+}
+
+.subscribe_content {
+  margin: auto;
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin-top: 4vmax;
+  width: 40vw;
+
+  display: flex;
+}
+.subscribe_form {
+  /* margin: auto; */
+
+  /* border: 1px solid rgb(0, 0, 0); */
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.5vmax;
+  font-family: 'Montserrat', sans-serif;
+
+  color: #5d4739;
+  display: flex;
+}
+
+.subscribe_icon {
+  margin: auto;
+
+  /* border: 1px solid rgb(0, 0, 0); */
+  width: 3vw;
+  height: 6.5vh;
+}
+
+.subscribe_icon img {
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+
+.subscribe_textField {
+  /* border: 1px solid rgb(0, 0, 0); */
+
+  height: 6.5vh;
+}
+
+.inputField {
+  height: 6.4vh;
+  width: 23vw;
+  background-color: transparent;
+  border: none;
+
+  /* margin-right: 3.7vmax; */
+}
+.inputButton {
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 0.5vmax;
+  width: 11vw;
+  height: 6.5vh;
+  color: white;
+  font-family: 'Open Sans';
+  border: none;
+  margin-left: 2.6vmax;
+}
+
+.inputButton:hover {
+  background: #ff7d68;
+}

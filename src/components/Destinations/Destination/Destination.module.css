@@ -1,0 +1,34 @@
+.dd_container {
+  height: 25vh;
+  width: 98.5vw;
+  /* border: 1px solid rgb(253, 0, 0); */
+  margin: auto;
+}
+
+.dd_heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vmax;
+  line-height: 4vh;
+
+  text-align: center;
+
+  color: #5e6282;
+  margin-left: auto;
+  /* border: 1px solid rgb(253, 0, 0); */
+
+  padding-top: 3vmax;
+}
+
+.dd_subheading {
+  font-family: 'Volkhov';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vmax;
+  line-height: 10vh;
+  /* border: 1px solid rgb(253, 0, 0); */
+
+  text-align: center;
+  color: #14183e;
+}
