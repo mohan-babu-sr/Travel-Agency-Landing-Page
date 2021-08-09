@@ -3,10 +3,18 @@ import classes from './TripContent.module.css';
 import V1 from '../../../content/value1.png';
 import V2 from '../../../content/value2.png';
 import V3 from '../../../content/value3.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const TripContent = () => {
+  Aos.init();
   return (
-    <div className={classes.tc_container}>
+    <div
+      className={classes.tc_container}
+      data-aos='fade-up'
+      data-aos-delay='50'
+      data-aos-duration='3000'
+    >
       <div className={classes.tc_subheading}>Easy and Fast</div>
       <div className={classes.tc_heading}>
         Book your next trip in 3 easy steps

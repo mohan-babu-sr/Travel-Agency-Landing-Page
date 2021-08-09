@@ -1,0 +1,88 @@
+.tmp_container {
+  /* border: 1px solid rgb(81, 255, 0); */
+  height: 80vh;
+  width: 45vw;
+  /* background: rgb(138, 138, 138); */
+  margin-right: auto;
+}
+
+.slick-prev {
+  left: 697px;
+  top: 180px;
+}
+
+.slick-next {
+  top: 120px;
+}
+
+.slick-prev:before {
+  content: '\02C5';
+}
+
+.slick-next:before {
+  content: '\02C4';
+}
+
+.slick-next:before,
+.slick-prev:before {
+  /* line-height: 1; */
+  color: rgb(5, 5, 5);
+}
+
+.tmp_containerCard {
+  margin-top: 9vmax;
+}
+
+.tmp_card {
+  /* background: orange; */
+  width: 40vw;
+  height: 40vh;
+}
+
+.tmp_userImg {
+  /* margin-top: 1vmax; */
+  /* margin-left: auto; */
+  /* margin-right: 4vmax; */
+}
+
+.tmp_cardContent {
+  /* background: rgb(161, 50, 50); */
+  margin-top: 1vmax;
+  margin-left: auto;
+  margin-right: 4vmax;
+  width: 35vw;
+  height: 37vh;
+}
+
+.tmp_details {
+  background: rgb(255, 255, 255);
+  margin-left: 2.6vmax;
+  margin-top: -1.8vmax;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  width: 28vw;
+  height: 20vh;
+  color: #5e6282;
+  line-height: 1.8vmax;
+  border-radius: 0.5vmax;
+  padding: 1.6vmax;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.tmp_desc {
+  /* padding-top: 0.5vmax; */
+  font-size: 1vmax;
+}
+
+.tmp_auth {
+  margin-top: 1.5vmax;
+  font-weight: 600;
+  font-size: 1vmax;
+}
+
+.tmp_position {
+  font-size: 0.7vmax;
+}
