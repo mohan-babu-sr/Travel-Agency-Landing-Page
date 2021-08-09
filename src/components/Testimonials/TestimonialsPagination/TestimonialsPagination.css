@@ -1,6 +1,6 @@
 .tmp_container {
   /* border: 1px solid rgb(81, 255, 0); */
-  height: 80vh;
+  height: 50vh;
   width: 45vw;
   /* background: rgb(138, 138, 138); */
   margin-right: auto;
@@ -16,10 +16,12 @@
 }
 
 .slick-prev:before {
+  font-weight: 600;
   content: '\02C5';
 }
 
 .slick-next:before {
+  font-weight: 600;
   content: '\02C4';
 }
 
@@ -30,7 +32,7 @@
 }
 
 .tmp_containerCard {
-  margin-top: 9vmax;
+  margin-top: 3vmax;
 }
 
 .tmp_card {

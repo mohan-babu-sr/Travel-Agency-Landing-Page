@@ -2,7 +2,7 @@
 
 .tmc_container {
   /* border: 1px solid rgb(81, 255, 0); */
-  height: 80vh;
+  height: 50vh;
   width: 35vw;
   /* background: rgb(136, 216, 116); */
   margin: auto;
@@ -10,7 +10,7 @@
 }
 
 .tmc_carousel {
-  margin-top: 8vmax;
+  margin-top: 4vmax;
   /* background: rgb(194, 216, 116); */
   height: 30vh;
   width: 35vw;

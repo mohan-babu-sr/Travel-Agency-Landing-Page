@@ -17,9 +17,9 @@ const HeroContent = () => {
             </span>
             <br />
             <div
-              data-aos='fade-up'
-              data-aos-anchor-placement='center-center'
-              data-aos-duration='3000'
+            // data-aos='fade-up'
+            // data-aos-anchor-placement='center-center'
+            // data-aos-duration='3000'
             >
               Travel, enjoy and live a new and full life
             </div>
