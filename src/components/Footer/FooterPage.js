@@ -6,13 +6,28 @@ import SOCIAL3 from '../../content/twit.png';
 import GoogleStore from '../../content/GooglePlay.png';
 import PlayStore from '../../content/PlayStore.png';
 
-const navRow1 = ['Company', 'About', 'Carrers', 'Mobile'];
-const navRow2 = ['Contact', 'Help/FAQ', 'Press', 'Affilates'];
-const navRow3 = ['More', 'Airlinefees', 'Airline', 'Low fare tips'];
+const footerData = [
+  { title: 'Company', des1: 'About', des2: 'Carrers', des3: 'Mobile' },
+  { title: 'Contact', des1: 'Help/FAQ', des2: 'Press', des3: 'Affilates' },
+  {
+    title: 'More',
+    des1: 'Airlinefees',
+    des2: 'Airline',
+    des3: 'Low fare tips',
+  },
+];
+
+const footerSocial = [
+  { link: 'https://en-gb.facebook.com/', image: SOCIAL1 },
+  { link: 'https://www.instagram.com/accounts/login/', image: SOCIAL2 },
+  { link: 'https://twitter.com/home', image: SOCIAL3 },
+];
+const footerStore = [
+  { link: 'https://play.google.com/store', image: GoogleStore },
+  { link: 'https://www.apple.com/in/app-store/', image: PlayStore },
+];
+
 const FooterPage = () => {
-  //   for (const i in navRow1) {
-  //     console.log(navRow1[i]);
-  //   }
   return (
     <div className={classes.footer_container}>
       <div className={classes.footer_content}>
@@ -23,7 +38,15 @@ const FooterPage = () => {
           </div>
         </div>
         <div className={classes.footer_2}>
-          <div className={classes.footer_2c}>
+          {footerData.map((data, idx) => (
+            <div className={classes.footer_2c} key={idx}>
+              <div className={classes.fTitle}>{data.title}</div>
+              <div className={classes.fDesc}>{data.des1}</div>
+              <div className={classes.fDesc}>{data.des2}</div>
+              <div className={classes.fDesc}>{data.des3}</div>
+            </div>
+          ))}
+          {/* <div className={classes.footer_2c}>
             <div className={classes.fTitle}>Company</div>
             <div className={classes.fDesc}>About</div>
             <div className={classes.fDesc}>Carrers</div>
@@ -42,16 +65,24 @@ const FooterPage = () => {
             <div className={classes.fDesc}>Airlinefees</div>
             <div className={classes.fDesc}>Airline</div>
             <div className={classes.fDesc}>Low fare tips</div>
-          </div>
+          </div> */}
         </div>
 
         <div className={classes.footer_3}>
           <div className={classes.footer_socials}>
-            <div className={classes.footer_social}>
+            {footerSocial.map((data, idx) => (
+              <div className={classes.footer_social} key={idx}>
+                <a href={data.link} target='_blank'>
+                  <img src={data.image} />
+                </a>
+              </div>
+            ))}
+            {/* <div className={classes.footer_social}>
               <a href='https://en-gb.facebook.com/' target='_blank'>
                 <img src={SOCIAL1} />
               </a>
             </div>
+
             <div className={classes.footer_social}>
               <a
                 href='https://www.instagram.com/accounts/login/'
@@ -59,23 +90,24 @@ const FooterPage = () => {
               >
                 <img src={SOCIAL2} />
               </a>
-            </div>
-            <div className={classes.footer_social}>
-              <a href='https://twitter.com/home' target='_blank'>
-                <img src={SOCIAL3} />
-              </a>
-            </div>
+            </div> */}
           </div>
+
           <div className={classes.footer_footer32}>
             <div>Discover our app</div>
           </div>
           <div className={classes.footer_footer33}>
-            <a href='https://play.google.com/store' target='_blank'>
+            {footerStore.map((data, idx) => (
+              <a href={data.link} target='_blank' key={idx}>
+                <img src={data.image} />
+              </a>
+            ))}
+            {/* <a href='https://play.google.com/store' target='_blank'>
               <img src={GoogleStore} />
             </a>
             <a href='https://www.apple.com/in/app-store/' target='_blank'>
               <img src={PlayStore} />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

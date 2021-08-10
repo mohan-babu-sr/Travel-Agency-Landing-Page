@@ -6,6 +6,27 @@ import V3 from '../../../content/value3.png';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
+const tripContent = [
+  {
+    title: 'Choose Destination',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.',
+    image: V1,
+  },
+  {
+    title: 'Make Payment',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.',
+    image: `${V2}`,
+  },
+  {
+    title: 'Reach Airport on Selected Date',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.',
+    image: `${V3}`,
+  },
+];
+
 const TripContent = () => {
   Aos.init();
   return (
@@ -19,7 +40,16 @@ const TripContent = () => {
       <div className={classes.tc_heading}>
         Book your next trip in 3 easy steps
       </div>
-      <div className={classes.tc_values}>
+      {tripContent.map((data, idx) => (
+        <div className={classes.tc_values} key={idx}>
+          <img src={data.image} />
+          <div>
+            <div className={classes.tc_valuesh}>{data.title}</div>
+            <div className={classes.tc_valuessh}>{data.description}</div>
+          </div>
+        </div>
+      ))}
+      {/* <div className={classes.tc_values}>
         <img src={V1} />
         <div>
           <div className={classes.tc_valuesh}>Choose Destination</div>
@@ -28,8 +58,8 @@ const TripContent = () => {
             tortor tempus.
           </div>
         </div>
-      </div>
-      <div className={classes.tc_values}>
+      </div> */}
+      {/* <div className={classes.tc_values}>
         <img src={V2} />
         <div>
           <div className={classes.tc_valuesh}>Make Payment</div>
@@ -38,8 +68,8 @@ const TripContent = () => {
             tortor tempus.
           </div>
         </div>
-      </div>
-      <div className={classes.tc_values}>
+      </div> */}
+      {/* <div className={classes.tc_values}>
         <img src={V3} />
         <div>
           <div className={classes.tc_valuesh}>
@@ -50,7 +80,7 @@ const TripContent = () => {
             tortor tempus.
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

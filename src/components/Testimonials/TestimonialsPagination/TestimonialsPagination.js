@@ -25,6 +25,23 @@ function SampleNextArrow(props) {
   );
 }
 
+const paginationData = [
+  {
+    author: 'Mike taylor',
+    position: 'Lahore, Pakistan',
+    description:
+      ' “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”',
+    image: UserImage,
+  },
+  {
+    author: 'Chris Thomas',
+    position: 'CEO of Red Button',
+    description:
+      ' “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”',
+    image: UserImage,
+  },
+];
+
 export default class TestimonialsPagination extends Component {
   render() {
     const settings = {
@@ -40,7 +57,21 @@ export default class TestimonialsPagination extends Component {
       <div className='tmp_container'>
         <div className='tmp_containerCard'>
           <Slider {...settings}>
-            <div className='tmp_card'>
+            {paginationData.map((data, idx) => (
+              <div className='tmp_card' key={idx}>
+                <div className='tmp_cardContent'>
+                  <div className='tmp_userImg'>
+                    <img src={data.image} />
+                  </div>
+                  <div className='tmp_details'>
+                    <div className='tmp_desc'>{data.description}</div>
+                    <div className='tmp_auth'>{data.author}</div>
+                    <div className='tmp_position'>{data.position}</div>
+                  </div>
+                </div>
+              </div>
+            ))}
+            {/* <div className='tmp_card'>
               <div className='tmp_cardContent'>
                 <div className='tmp_userImg'>
                   <img src={UserImage} />
@@ -71,7 +102,7 @@ export default class TestimonialsPagination extends Component {
                   <div className='tmp_position'>CEO of Red Button</div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </div>

@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 const HeroContent = () => {
   Aos.init();
   return (
-    <div className='hero_contanier'>
+    <div className='hero_contaynier'>
       <div className='hero_çontents'>
         <div className='hero_çontent'>
           <div className='hero_content_1'>

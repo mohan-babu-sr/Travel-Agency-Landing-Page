@@ -6,15 +6,20 @@ import Logo4 from '../../content/logo4.png';
 import Logo5 from '../../content/logo5.png';
 import classes from './LogosPage.module.css';
 
+const logo = [Logo1, Logo2, Logo3, Logo4, Logo5];
+
 const LogosPage = () => {
   return (
     <div className={classes.logos_container}>
       <marquee behavior='scroll' direction='left' scrollamount='10'>
-        <img src={Logo1} />
+        {logo.map((data, idx) => (
+          <img src={data} key={idx} />
+        ))}
+        {/* <img src={Logo1} />
         <img src={Logo2} />
         <img src={Logo3} />
         <img src={Logo4} />
-        <img src={Logo5} />
+        <img src={Logo5} /> */}
       </marquee>
     </div>
   );

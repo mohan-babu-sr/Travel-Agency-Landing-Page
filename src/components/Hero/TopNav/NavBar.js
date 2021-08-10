@@ -14,7 +14,7 @@ function NavBar() {
           style={{ transform: open ? 'translateX(0px)' : '' }}
         >
           <li>
-            <a href='#service_page'>Destinations</a>
+            <a href='#destination_page'>Destinations</a>
           </li>
           <li>
             <a href='#'>Hotels</a>
