@@ -1,8 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
   margin: 0;
+  color: #5e6282;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Poppins';
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
+
+.pageHeading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vmax;
+  line-height: 4vh;
+  color: #5e6282;
+}
+
+.pageSubheading {
+  font-family: 'Volkhov';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vmax;
+  line-height: 10vh;
+  color: #14183e;
 }

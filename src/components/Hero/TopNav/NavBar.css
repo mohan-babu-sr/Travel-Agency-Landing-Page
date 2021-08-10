@@ -1,11 +1,9 @@
 * {
   margin: 0;
-  /* margin-top: 7px; */
   padding: 0;
   box-sizing: border-box;
   /* border: 1px solid rgb(0, 0, 0); */
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 li {
   margin: auto;
@@ -24,8 +22,6 @@ a {
 
 nav {
   position: relative;
-
-  /* border: 1px solid black; */
   display: flex;
   width: 81vw;
   margin: auto;
@@ -38,7 +34,7 @@ nav .logo {
   margin-top: 0.8vmax;
 }
 
-.logoimage {
+.logoImage {
   height: 4vh;
 }
 
@@ -55,53 +51,11 @@ nav .nav-links a:hover {
 
 nav .burger {
   cursor: pointer;
-  /* font-size: 25px; */
   display: none;
 }
 
-/* @media all and (max-width: 600px) {
-  * {
-    margin-top: 0px;
-  }
-  nav {
-    width: 100%;
-  }
-  nav .logo {
-    margin-left: 10px;
-  }
-  nav .burger {
-    margin-right: 10px;
-    display: block;
-  }
-  nav .nav-links {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100vh;
-    background: #df6951;
-    padding: 40px;
-    transform: translateX(-500px);
-    transition: 0.5s ease-in-out;
-  }
-
-  nav .nav-links li {
-    padding: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-  nav .nav-links li:last-of-type {
-    border-bottom: 0px solid rgb(255, 255, 255);
-  }
-  nav .nav-links a:hover {
-    border-bottom: 1px solid rgb(255, 255, 255);
-  }
-} */
-
-/* Button */
-.navbutton {
+.navButton {
   cursor: pointer;
-
   width: 7vw;
   height: 5vh;
   background: none;
@@ -113,20 +67,17 @@ nav .burger {
   border: 0.11vmax solid black;
 }
 
-.navbutton:hover {
-  background-color: #df6951;
-  /* border: 3px solid #df6951; */
-  /* border: white; */
+.navButton:hover {
+  background-color: #df69514b;
 }
 
 /* Dropdown */
-.navdropdown {
+.navDropdown {
   margin-right: -1.7vmax;
   width: 2.7vw;
   height: 3vh;
   background-color: #fff1da;
   cursor: pointer;
-
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -134,9 +85,7 @@ nav .burger {
   font-size: 1vmax;
 }
 
-.navdropdown:hover {
-  background-color: #df6951;
+.navDropdown:hover {
+  background-color: #df69514b;
   border-radius: 0.2vmax;
-  color: white;
-  border-bottom: 3px solid #df6951;
 }

@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 .cl_container {
-  /* border: 1px solid black; */
   width: 84.9vw;
   display: flex;
   margin: 0;
@@ -14,8 +10,6 @@
   width: 15vw;
   height: 35vh;
   cursor: pointer;
-  /* border: 1px solid black; */
-
   background: #ffffff;
   border-radius: 2.5vmax;
 }
@@ -35,9 +29,6 @@
 .cl_card:active {
   background-image: url('../../../content/categoryActive.png');
   background-repeat: no-repeat;
-  /* margin-left: -10px; */
-  /* position: relative; */
-  /* background: black; */
   background-position-x: -60px;
 }
 
@@ -45,16 +36,12 @@
   margin: auto;
   width: 5vw;
   height: 13vh;
-  /* border: 1px solid red; */
 }
 
 .cl_card img {
   margin: auto;
   width: 5vw;
-  /* margin-left: 5vw; */
-  /* margin-right: auto; */
   margin-top: 3vh;
-  /* margin-bottom: 25px; */
 }
 
 .cl_card_title {

@@ -1,0 +1,51 @@
+.tc_container {
+  height: 99.7vh;
+  width: 38vw;
+  /* background: rgb(136, 216, 116); */
+  margin: auto;
+  margin-left: 10vw;
+}
+
+.tc_heading {
+  margin-top: 10vh;
+}
+
+.tc_subheading {
+  font-size: 3.5vmax;
+  text-transform: capitalize;
+  margin-top: 2vh;
+}
+
+.tc_values {
+  height: 10vh;
+  width: 31vw;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+  display: flex;
+}
+
+.tc_values img {
+  width: 6vw;
+  height: 7vh;
+  margin-top: 1vh;
+  margin-right: 2.2vw;
+}
+
+.tc_valuesH {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25vmax;
+  line-height: 3.5vh;
+  color: #5e6282;
+}
+
+.tc_valuesSH {
+  margin-top: 0.4vmax;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vmax;
+  line-height: 3.2vh;
+  color: #5e6282;
+}

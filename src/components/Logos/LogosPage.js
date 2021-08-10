@@ -13,13 +13,8 @@ const LogosPage = () => {
     <div className={classes.logos_container}>
       <marquee behavior='scroll' direction='left' scrollamount='10'>
         {logo.map((data, idx) => (
-          <img src={data} key={idx} />
+          <img src={data} key={idx} alt='img' />
         ))}
-        {/* <img src={Logo1} />
-        <img src={Logo2} />
-        <img src={Logo3} />
-        <img src={Logo4} />
-        <img src={Logo5} /> */}
       </marquee>
     </div>
   );

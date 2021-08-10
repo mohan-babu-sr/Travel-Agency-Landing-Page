@@ -7,7 +7,7 @@ function NavBar() {
     <div>
       <nav className='container'>
         <div className='logo'>
-          <img className='logoimage' src={Logo} alt='Jadoo Logo' />
+          <img className='logoImage' src={Logo} alt='Jadoo Logo' />
         </div>
         <ul
           className='nav-links'
@@ -17,24 +17,24 @@ function NavBar() {
             <a href='#destination_page'>Destinations</a>
           </li>
           <li>
-            <a href='#'>Hotels</a>
+            <a href='/#'>Hotels</a>
           </li>
           <li>
-            <a href='#'>Flights</a>
+            <a href='/#'>Flights</a>
           </li>
           <li>
-            <a href='#'>Bookings</a>
+            <a href='/#'>Bookings</a>
           </li>
           <li>
-            <a href='#'>Login</a>
+            <a href='/#'>Login</a>
           </li>
           <li>
-            <button href='#' className='navbutton'>
+            <button href='/#' className='navButton'>
               Sign up
             </button>
           </li>
           <li>
-            <select id='language' name='language' className='navdropdown'>
+            <select id='language' name='language' className='navDropdown'>
               <option value='EN'>EN</option>
             </select>
           </li>

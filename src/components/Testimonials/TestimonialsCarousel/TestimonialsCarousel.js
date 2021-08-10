@@ -25,8 +25,8 @@ const TestimonialsCarousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // dotsClass: '<div class="slick-dots"></div>',
   };
+
   return (
     <div className='tmc_container'>
       <div className='tmc_carousel'>
@@ -34,22 +34,24 @@ const TestimonialsCarousel = () => {
           <Slider {...settings}>
             {carouselData.map((data, idx) => (
               <div key={idx}>
-                <div className='tmc_heading'>{data.title}</div>
-                <div className='tmc_subheading'>{data.description}</div>
+                <div
+                  className='pageHeading tmc_heading'
+                  data-aos='fade-left'
+                  data-aos-delay='50'
+                  data-aos-duration='3000'
+                >
+                  {data.title}
+                </div>
+                <div
+                  className='pageSubheading tmc_subheading'
+                  data-aos='fade-up'
+                  data-aos-delay='50'
+                  data-aos-duration='3000'
+                >
+                  {data.description}
+                </div>
               </div>
             ))}
-            {/* <div>
-              <div className='tmc_heading'>Testimonials</div>
-              <div className='tmc_subheading'>What people say about Us.</div>
-            </div> */}
-            {/* <div>
-              <div className='tmc_heading'>Testimonials 2</div>
-              <div className='tmc_subheading'>What people say about Us.</div>
-            </div> */}
-            {/* <div>
-              <div className='tmc_heading'>Testimonials 3</div>
-              <div className='tmc_subheading'>What people say about Us.</div>
-            </div> */}
           </Slider>
         </div>
       </div>

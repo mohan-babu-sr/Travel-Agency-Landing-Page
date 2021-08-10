@@ -1,5 +1,4 @@
 .tmp_container {
-  /* border: 1px solid rgb(81, 255, 0); */
   height: 50vh;
   width: 45vw;
   /* background: rgb(138, 138, 138); */
@@ -15,6 +14,11 @@
   top: 120px;
 }
 
+/* .slick-prev:hover {
+  background-color: rgba(0, 0, 0, 0.253);
+  border-radius: 0.5vmax;
+} */
+
 .slick-prev:before {
   font-weight: 600;
   content: '\02C5';
@@ -27,7 +31,6 @@
 
 .slick-next:before,
 .slick-prev:before {
-  /* line-height: 1; */
   color: rgb(5, 5, 5);
 }
 
@@ -36,19 +39,11 @@
 }
 
 .tmp_card {
-  /* background: orange; */
   width: 40vw;
   height: 40vh;
 }
 
-.tmp_userImg {
-  /* margin-top: 1vmax; */
-  /* margin-left: auto; */
-  /* margin-right: 4vmax; */
-}
-
 .tmp_cardContent {
-  /* background: rgb(161, 50, 50); */
   margin-top: 1vmax;
   margin-left: auto;
   margin-right: 4vmax;
@@ -75,7 +70,6 @@
 }
 
 .tmp_desc {
-  /* padding-top: 0.5vmax; */
   font-size: 1vmax;
 }
 

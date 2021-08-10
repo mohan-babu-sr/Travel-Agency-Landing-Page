@@ -9,18 +9,13 @@ const ServicesPage = () => {
   Aos.init();
   return (
     <div className={classes.sp_container} id='service_page'>
-      <div
-        className={classes.sp_contents}
-        data-aos='flip-up'
-        data-aos-delay='50'
-        data-aos-duration='3000'
-      >
+      <div className={classes.sp_contents}>
         <Category />
         <div
-          data-aos='fade-right'
+          className={classes.sp_group4}
+          data-aos='fade-up'
           data-aos-delay='50'
           data-aos-duration='1000'
-          className={classes.sp_group4}
         />
         <CategoryList />
       </div>

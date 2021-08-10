@@ -5,10 +5,8 @@
 }
 
 .bt_container {
-  /* position: inherit; */
   height: 99.7vh;
   width: 98.5vw;
-  /* border: 1px solid rgb(253, 0, 0); */
 }
 
 .bt_contents {

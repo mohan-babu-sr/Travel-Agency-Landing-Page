@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
-
 .tmc_container {
-  /* border: 1px solid rgb(81, 255, 0); */
   height: 50vh;
   width: 35vw;
   /* background: rgb(136, 216, 116); */
@@ -11,7 +8,6 @@
 
 .tmc_carousel {
   margin-top: 4vmax;
-  /* background: rgb(194, 216, 116); */
   height: 30vh;
   width: 35vw;
 }
@@ -24,25 +20,16 @@
   font-size: 0.8vmax;
   margin-top: 2vmax;
 }
+
 .tmc_heading {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1vmax;
   line-height: 2vmax;
   text-transform: uppercase;
-  color: #5e6282;
   margin-left: 0.3vmax;
 }
 
 .tmc_subheading {
   margin-left: 0.3vmax;
-
-  font-family: 'Volkhov', serif;
-  font-style: normal;
-  font-weight: bold;
   font-size: 4vmax;
   line-height: 5.5vmax;
   text-transform: capitalize;
-  color: #14183e;
 }

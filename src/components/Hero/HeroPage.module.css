@@ -1,15 +1,14 @@
 .hp_container {
   position: relative;
   height: 93vh;
-  /* width: 90vw; */
   padding-top: 3vh;
   background-image: url('../../content/HeroDecore.png');
   background-repeat: no-repeat;
-
   background-size: 24vw 1.5vh;
   background-position-x: 24vmax;
   background-position-y: 18.3vmax;
 }
+
 .hp_plane1 {
   position: relative;
 }
@@ -22,22 +21,17 @@
   position: relative;
   background-image: url('../../content/Traveller 1.png');
   background-repeat: no-repeat;
-
   background-size: 44vw 91vh;
   width: 42vw;
   height: 91vh;
   margin-left: auto;
   margin-right: 11vw;
   margin-top: -21vw;
-  /* border: 1px solid rgb(0, 0, 0); */
 }
 
 .hp_ellipse8 {
-  /* border: 1px solid rgb(0, 0, 0); */
-
   background-image: url('../../content/Ellipse 8.png');
   background-repeat: no-repeat;
-
   background-size: 4vw 50vh;
   width: 4vw;
   height: 50vh;
@@ -45,7 +39,6 @@
 }
 
 .hp_decore {
-  /* border: 1px solid black; */
   background-image: url('../../content/Decore.png');
   background-repeat: no-repeat;
   background-size: 44vw 88vh;

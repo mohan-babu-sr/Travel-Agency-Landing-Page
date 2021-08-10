@@ -1,0 +1,16 @@
+.cp_container {
+  width: 80%;
+  /* border: 1px solid #5e6282; */
+  margin: auto;
+}
+
+.cp_heading {
+  text-align: center;
+  margin-left: auto;
+  padding-top: 3vmax;
+}
+
+.cp_subheading {
+  text-align: center;
+  text-transform: capitalize;
+}

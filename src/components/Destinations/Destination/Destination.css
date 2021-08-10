@@ -1,0 +1,16 @@
+.dd_container {
+  height: 25vh;
+  width: 98.5vw;
+  /* border: 1px solid rgb(253, 0, 0); */
+  margin: auto;
+}
+
+.dd_heading {
+  text-align: center;
+  margin-left: auto;
+  padding-top: 3vmax;
+}
+
+.dd_subheading {
+  text-align: center;
+}

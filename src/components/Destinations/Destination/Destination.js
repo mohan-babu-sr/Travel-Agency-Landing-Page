@@ -1,14 +1,15 @@
 import React from 'react';
-import classes from './Destination.module.css';
+import './Destination.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import '../../../index.css';
 
 const Destination = () => {
   Aos.init();
   return (
-    <div className={classes.dd_container}>
+    <div className='dd_container'>
       <div
-        className={classes.dd_heading}
+        className='pageHeading dd_heading'
         data-aos='fade-up'
         data-aos-anchor-placement='center-center'
         data-aos-duration='1500'
@@ -16,7 +17,7 @@ const Destination = () => {
         Top Selling
       </div>
       <div
-        className={classes.dd_subheading}
+        className='pageSubheading dd_subheading'
         data-aos='fade-up'
         data-aos-anchor-placement='center-center'
         data-aos-duration='1500'

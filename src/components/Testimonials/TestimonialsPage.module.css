@@ -1,11 +1,9 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid rgb(253, 0, 0); */
 }
 
 .tm_container {
-  /* position: inherit; */
   height: 50vh;
   width: 98.5vw;
   /* border: 1px solid rgb(253, 0, 0); */

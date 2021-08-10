@@ -60,8 +60,8 @@ export default class TestimonialsPagination extends Component {
             {paginationData.map((data, idx) => (
               <div className='tmp_card' key={idx}>
                 <div className='tmp_cardContent'>
-                  <div className='tmp_userImg'>
-                    <img src={data.image} />
+                  <div>
+                    <img src={data.image} alt='img' />
                   </div>
                   <div className='tmp_details'>
                     <div className='tmp_desc'>{data.description}</div>
@@ -71,52 +71,9 @@ export default class TestimonialsPagination extends Component {
                 </div>
               </div>
             ))}
-            {/* <div className='tmp_card'>
-              <div className='tmp_cardContent'>
-                <div className='tmp_userImg'>
-                  <img src={UserImage} />
-                </div>
-                <div className='tmp_details'>
-                  <div className='tmp_desc'>
-                    “On the Windows talking painted pasture yet its express
-                    parties use. Sure last upon he same as knew next. Of
-                    believed or diverted no.”
-                  </div>
-                  <div className='tmp_auth'>Mike taylor</div>
-                  <div className='tmp_position'>Lahore, Pakistan</div>
-                </div>
-              </div>
-            </div>
-            <div className='tmp_card'>
-              <div className='tmp_cardContent'>
-                <div className='tmp_userImg'>
-                  <img src={UserImage} />
-                </div>
-                <div className='tmp_details'>
-                  <div className='tmp_desc'>
-                    “On the Windows talking painted pasture yet its express
-                    parties use. Sure last upon he same as knew next. Of
-                    believed or diverted no.”
-                  </div>
-                  <div className='tmp_auth'>Chris Thomas</div>
-                  <div className='tmp_position'>CEO of Red Button</div>
-                </div>
-              </div>
-            </div> */}
           </Slider>
         </div>
       </div>
     );
   }
 }
-
-// import React from 'react';
-// import classes from './TestimonialsPagination.module.css';
-
-// const TestimonialsPagination = () => {
-//   return <div className={classes.tmp_container}>
-
-//   </div>;
-// };
-
-// export default TestimonialsPagination;

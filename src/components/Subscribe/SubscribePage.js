@@ -13,7 +13,7 @@ const SubscribePage = () => {
         <div className={classes.subscribe_content}>
           <div className={classes.subscribe_form}>
             <div className={classes.subscribe_icon}>
-              <img src={ICON} />
+              <img src={ICON} alt='img' />
             </div>
             <div className={classes.subscribe_textField}>
               <input
@@ -21,6 +21,7 @@ const SubscribePage = () => {
                 type='text'
                 placeholder='Your email'
                 name='email'
+                autocomplete='off'
               />
             </div>
           </div>

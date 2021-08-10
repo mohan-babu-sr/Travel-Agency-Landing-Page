@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid rgb(253, 0, 0); */
 }
 
 .sp_container {
   height: 96vh;
-  /* width: 100%; */
   margin-top: 10vh;
   /* border: 1px solid rgb(253, 0, 0); */
 }
@@ -14,21 +12,16 @@
 .sp_contents {
   margin: auto;
   height: 90vh;
-
   width: 85vw;
 }
-.sp_group4 {
-  /* position: relative; */
-  /* border: 1px solid rgb(0, 0, 0); */
 
+.sp_group4 {
   background-image: url('../../content/Group 4.png');
   background-repeat: no-repeat;
-
   background-size: 9.5vw 19vh;
   width: 9.5vw;
   height: 19vh;
   margin-top: -13.5vh;
-
   margin-left: auto;
   margin-right: -3vw;
 }

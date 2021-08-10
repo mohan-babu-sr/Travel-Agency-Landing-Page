@@ -46,51 +46,17 @@ const FooterPage = () => {
               <div className={classes.fDesc}>{data.des3}</div>
             </div>
           ))}
-          {/* <div className={classes.footer_2c}>
-            <div className={classes.fTitle}>Company</div>
-            <div className={classes.fDesc}>About</div>
-            <div className={classes.fDesc}>Carrers</div>
-            <div className={classes.fDesc}>Mobile</div>
-          </div>
-
-          <div className={classes.footer_2c}>
-            <div className={classes.fTitle}>Contact</div>
-            <div className={classes.fDesc}>Help/FAQ</div>
-            <div className={classes.fDesc}>Press</div>
-            <div className={classes.fDesc}>Affilates</div>
-          </div>
-
-          <div className={classes.footer_2c}>
-            <div className={classes.fTitle}>More</div>
-            <div className={classes.fDesc}>Airlinefees</div>
-            <div className={classes.fDesc}>Airline</div>
-            <div className={classes.fDesc}>Low fare tips</div>
-          </div> */}
         </div>
 
         <div className={classes.footer_3}>
           <div className={classes.footer_socials}>
             {footerSocial.map((data, idx) => (
               <div className={classes.footer_social} key={idx}>
-                <a href={data.link} target='_blank'>
-                  <img src={data.image} />
+                <a href={data.link} target='_blank' rel='noreferrer'>
+                  <img src={data.image} alt='img' />
                 </a>
               </div>
             ))}
-            {/* <div className={classes.footer_social}>
-              <a href='https://en-gb.facebook.com/' target='_blank'>
-                <img src={SOCIAL1} />
-              </a>
-            </div>
-
-            <div className={classes.footer_social}>
-              <a
-                href='https://www.instagram.com/accounts/login/'
-                target='_blank'
-              >
-                <img src={SOCIAL2} />
-              </a>
-            </div> */}
           </div>
 
           <div className={classes.footer_footer32}>
@@ -98,16 +64,10 @@ const FooterPage = () => {
           </div>
           <div className={classes.footer_footer33}>
             {footerStore.map((data, idx) => (
-              <a href={data.link} target='_blank' key={idx}>
-                <img src={data.image} />
+              <a href={data.link} target='_blank' rel='noreferrer' key={idx}>
+                <img src={data.image} alt='img' />
               </a>
             ))}
-            {/* <a href='https://play.google.com/store' target='_blank'>
-              <img src={GoogleStore} />
-            </a>
-            <a href='https://www.apple.com/in/app-store/' target='_blank'>
-              <img src={PlayStore} />
-            </a> */}
           </div>
         </div>
       </div>

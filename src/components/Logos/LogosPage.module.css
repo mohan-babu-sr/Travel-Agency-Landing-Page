@@ -7,11 +7,9 @@
 }
 
 .logos_container img {
-  /* border: 1px solid blue; */
   margin-top: 4.5vmax;
   margin-right: 4vmax;
   margin-left: 4vmax;
-
   width: 7vw;
   height: 4.5vh;
 }
