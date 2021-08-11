@@ -3,7 +3,7 @@ import './HeroContent.css';
 import PlayButton from '../../../content/Playbutton.png';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'; 
 
 const HeroContent = () => {
   Aos.init();

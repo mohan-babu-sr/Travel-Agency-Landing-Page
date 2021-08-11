@@ -3,7 +3,7 @@
   box-sizing: content-box;
 }
 
-.hero_contanier {
+.hero_contanier { 
   position: absolute;
   margin: 0;
   width: 98vw;
@@ -105,4 +105,17 @@
 .hero_button2 img {
   margin-top: -0.4vmax;
   width: 5vw;
+}
+
+@media all and (max-width: 600px) {
+  .hero_content_1 {
+    position:inherit;
+    font-size: 5vmax;
+    line-height: 6vmax;
+    width: 10ch;
+    margin-bottom: 1vmax;
+  }
+  .hero_content_1 span {
+    font-size: 1.61vmax;
+  }
 }

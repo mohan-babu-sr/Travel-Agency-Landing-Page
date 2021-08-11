@@ -12,7 +12,7 @@ li {
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-  font-size: 0.95vmax;
+  font-size: 0.9rem;
 }
 
 a {
@@ -23,7 +23,7 @@ a {
 nav {
   position: relative;
   display: flex;
-  width: 81vw;
+  width: 1246px;
   margin: auto;
   justify-content: space-between;
   min-height: 5vh;
@@ -31,17 +31,17 @@ nav {
 }
 
 nav .logo {
-  margin-top: 0.8vmax;
+  margin-top: 0.75rem;
 }
 
 .logoImage {
-  height: 4vh;
+  height: 2rem;
 }
 
 nav .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 51vw;
+  width: 60%;
 }
 
 nav .nav-links a:hover {
@@ -56,15 +56,20 @@ nav .burger {
 
 .navButton {
   cursor: pointer;
-  width: 7vw;
-  height: 5vh;
+  /* width: 6.75rem; */
+  width: 108px;
+  /* width: 7vw; */
+  /* height: 5vh; */
+  height: 39px;
   background: none;
-  border-radius: 0.5vmax;
+  /* border-radius: 0.5vmax; */
+  border-radius: 8px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.1vmax;
-  border: 0.11vmax solid black;
+  /* font-size: 1.1vmax; */
+  font-size: 1.1rem;
+  border: 2px solid black;
 }
 
 .navButton:hover {
@@ -73,19 +78,73 @@ nav .burger {
 
 /* Dropdown */
 .navDropdown {
-  margin-right: -1.7vmax;
-  width: 2.7vw;
-  height: 3vh;
+  margin-right: -25px;
+  /* margin-right: -1.7vmax; */
+  /* width: 2.7vw; */
+  /* height: 3vh; */
   background-color: #fff1da;
   cursor: pointer;
   border: none;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1vmax;
+  font-size: 1rem;
 }
 
 .navDropdown:hover {
   background-color: #df69514b;
   border-radius: 0.2vmax;
+}
+
+@media all and (max-width: 600px) {
+  nav {
+    width: 100%;
+    margin-top: -20px;
+  }
+  nav .logo {
+    margin-left: 10px;
+  }
+  nav .burger {
+    margin-right: 10px;
+    display: block;
+  }
+  nav .nav-links {
+    position:absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100vh;
+    background: rgb(223, 96, 96);
+    padding: 20px;
+    transform: translateX(-500px);
+    transition: 0.5s ease-in-out;
+  }
+  
+  nav .nav-links li {
+    padding: 5px;
+    /* border-bottom: 1px solid black; */
+  }
+  nav .nav-links li:last-of-type {
+    border-bottom: 0px solid black;
+  }
+  nav .nav-links a:hover {
+    border-bottom: 0px solid black;
+  }
+  .navButton {
+    margin-top: -50px;
+    margin-bottom: -50px;
+    border: none;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 600;  color: #212832;
+  }
+  .navDropdown {
+    margin-left: -4px;
+    font-weight: 600;
+    background: none;
+    cursor: pointer;
+    border: none;
+    font-size: 0.9rem;  color: #212832;
+  }
 }
