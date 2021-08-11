@@ -45,6 +45,12 @@ const HeroContent = () => {
             </button>
           </div>
         </div>
+        <div
+        className='hc_traveller1'
+        data-aos='fade-left'
+        data-aos-delay='50'
+        data-aos-duration='1000'
+      ></div>
       </div>
     </div>
   );

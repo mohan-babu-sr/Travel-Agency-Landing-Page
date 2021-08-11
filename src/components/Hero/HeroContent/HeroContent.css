@@ -3,21 +3,28 @@
   box-sizing: content-box;
 }
 
-.hero_contanier { 
-  position: absolute;
+.hero_container { 
+  /* position: absolute; */
   margin: 0;
-  width: 98vw;
+  width: 98.5vw;
 }
 
 .hero_çontents {
-  width: 80vw;
+  width: 1225px;
+  /* border: 1px solid rgb(9, 187, 89); */
   margin: auto;
+  background-image: url('../../../content/HeroDecore.png');
+  background-repeat: no-repeat;
+  background-size: 368.64px 11.445px;
+  background-position-x: 240px;
+  background-position-y: 155px;
 }
 
 .hero_çontent {
-  /* border: 1px solid rgb(9, 187, 89); */
-  margin-top: 7vh;
-  width: 40vw;
+  margin-top: 53px;
+  /* margin-top: 7vh; */
+  width: 600px;
+  /* width: 40vw; */
 }
 
 .hero_content_1 {
@@ -25,49 +32,62 @@
   font-family: 'Volkhov', serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 5vmax;
-  line-height: 5.2vmax;
+  /* font-size: 5vmax; */
+  font-size: 4.8rem;
+  line-height: 79.5px;
+  /* line-height: 5.2vmax; */
   color: #181e4b;
-  margin-bottom: 1vmax;
+  /* margin-bottom: 1vmax; */
+  margin-bottom: 15px;
 }
 
 .hero_content_1 span {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.3vmax;
+  /* font-size: 1.3vmax; */
+  font-size: 1.25rem;
   color: #fa5652;
   text-transform: uppercase;
   color: #df6951;
 }
 
 .hero_content_2 {
-  width: 30vw;
+  /* width: 30vw; */
+  width: 460px;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.1vmax;
-  line-height: 4vh;
-  margin-bottom: 2vmax;
+  font-size: 1.05rem;
+  /* font-size: 1.1vmax; */
+  /* line-height: 4vh; */
+  line-height: 31px;
+  margin-bottom: 30.5px;
+  /* margin-bottom: 2vmax; */
   font-family: 'Poppins';
 }
 
 .hero_div_btn {
   display: flex;
-  width: 26vw;
+  width: 399.36px;
+  /* width: 26vw; */
   margin: 0;
 }
 
 .hero_button1 {
-  width: 10vw;
-  height: 6vh;
+  width: 153.3px;
+  /* width: 10vw; */
+  /* height: 6vh; */
+  height: 45.78px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.9vmax;
+  /* font-size: 0.9vmax; */
+  font-size: 0.86rem;
   color: #ffffff;
   background: #f1a501;
   box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
-  border-radius: 0.5vmax;
+  border-radius: 8px;
+  /* border-radius: 0.5vmax; */
   cursor: pointer;
   border: none;
 }
@@ -79,9 +99,10 @@
 }
 
 .hero_button2 {
-  margin-left: 2vmax;
-  width: 10vw;
-  height: 6vh;
+  margin-left: 31px;
+  /* margin-left: 2vmax; */
+  width: 153.6px;
+  height: 45.78px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -97,17 +118,36 @@
   /* border-bottom: 3px solid #f1a501; */
 }
 .hero_button2 span {
-  font-size: 0.8vmax;
+  font-size: 0.78rem;
+  /* font-size: 0.8vmax; */
   font-weight: 600;
   color: #686d77;
-  margin-top: 0.8vmax;
+  margin-top: 12px;
+  /* margin-top: 0.8vmax; */
 }
 .hero_button2 img {
-  margin-top: -0.4vmax;
-  width: 5vw;
+  margin-top: -6px;
+  /* margin-top: -0.4vmax; */
+  width: 76.8px;
+}
+
+.hc_traveller1 {
+  position: relative;
+  background-image: url('../../../content/Traveller 1.png');
+  background-repeat: no-repeat;
+  background-size: 675.84px 694.33px;
+  width:645.12px;
+  height: 671.44px;
+  margin-left: auto;
+  margin-right: -50px;
+  margin-top: -550.56px;
 }
 
 @media all and (max-width: 600px) {
+.hero_çontent {
+  margin-left: 15px;
+  margin-right: auto;
+}
   .hero_content_1 {
     position:inherit;
     font-size: 5vmax;
@@ -117,5 +157,21 @@
   }
   .hero_content_1 span {
     font-size: 1.61vmax;
+  }
+  .hero_content_2 {
+    width: 60vw;
+    font-size: 1.3vmax;
+    line-height: 2.5vh;
+    margin-bottom: 2vmax;
+  }
+    .hc_traveller1 {
+      background-size: 200px 200px;
+      width: 200px;
+      height: 200px;
+      margin-left: 190px;
+      margin-right: auto;
+      margin-top: -260px;
+      /* display: none; */
+    
   }
 }

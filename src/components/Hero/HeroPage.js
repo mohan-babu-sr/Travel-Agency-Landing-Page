@@ -13,12 +13,6 @@ const HeroPage = () => {
       <HeroContent />
       <div className={classes.hp_decore}></div>
       <div className={classes.hp_ellipse8}></div>
-      <div
-        className={classes.hp_traveller1}
-        data-aos='fade-left'
-        data-aos-delay='50'
-        data-aos-duration='1000'
-      ></div>
     </div>
   );
 };

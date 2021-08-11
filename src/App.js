@@ -11,13 +11,13 @@ function App() {
   return (
     <div>
       <HeroPage />
-      <ServicesPage />
+      {/* <ServicesPage />
       <DestinationsPage />
       <BookATripPage />
       <TestimonialsPage />
       <LogosPage />
       <SubscribePage />
-      <FooterPage />
+      <FooterPage /> */}
     </div>
   );
 }
