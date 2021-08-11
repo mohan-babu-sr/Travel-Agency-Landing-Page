@@ -144,7 +144,7 @@
 }
 
 @media all and (max-width: 600px) {
-.hero_çontent {
+.hero_çontent { 
   margin-left: 15px;
   margin-right: auto;
 }
