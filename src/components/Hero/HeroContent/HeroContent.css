@@ -75,7 +75,7 @@
 .hero_button1:hover {
   color: #f1a501;
   background: white;
-  border-bottom: 3px solid #f1a501;
+  /* border-bottom: 0.1px solid #f1a501; */
 }
 
 .hero_button2 {
@@ -88,12 +88,13 @@
   display: flex;
   border: none;
   background: none;
+  cursor: pointer;
 }
 
 .hero_button2:hover {
   color: #f1a501;
   border-radius: 10px;
-  border-bottom: 3px solid #f1a501;
+  /* border-bottom: 3px solid #f1a501; */
 }
 .hero_button2 span {
   font-size: 0.8vmax;

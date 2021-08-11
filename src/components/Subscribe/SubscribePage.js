@@ -21,7 +21,7 @@ const SubscribePage = () => {
                 type='text'
                 placeholder='Your email'
                 name='email'
-                autocomplete='off'
+                autoComplete='off'
               />
             </div>
           </div>
