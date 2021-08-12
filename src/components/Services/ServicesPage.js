@@ -3,7 +3,7 @@ import Category from './Category/Category';
 import CategoryList from './CategoryList/CategoryList';
 import classes from './ServicesPage.module.css';
 import Aos from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'; 
 
 const ServicesPage = () => {
   Aos.init();

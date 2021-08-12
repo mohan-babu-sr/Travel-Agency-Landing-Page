@@ -1,6 +1,6 @@
 .dl_container {
   /* border: 1px solid #84829a; */
-  width: 80vw;
+  width: 82%;
   display: flex;
   margin: auto;
   background-image: url('../../../content/ddDecore.png');
@@ -12,17 +12,18 @@
 
 .dl_card {
   margin: auto;
-  width: 20vw;
-  height: 60vh;
+  width: 307.2px;
+  height: 457.8px;
   background-repeat: no-repeat;
-  background-size: 20vw 60vh;
+  background-size: 307.2px 457.8px;
   box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
     0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
     0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
     0px 20px 13px rgba(0, 0, 0, 0.01),
     0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
     0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-  border-radius: 3vh;
+  border-radius: 30px;
+  /* border-radius: 3vh; */
 }
 
 .dl_card:hover {
@@ -31,11 +32,13 @@
 }
 
 .dl_content {
-  background: white;
-  margin-top: 43vh;
-  height: 17vh;
-  border-bottom-left-radius: 2.9vh;
-  border-bottom-right-radius: 2.9vh;
+  background: rgb(255, 255, 255);
+  margin-top: 328.5px;
+  /* margin-top: 43vh; */
+  height: 129.8px;
+  border-bottom-left-radius: 26px;
+  /* border-bottom-left-radius: 2.9vh; */
+  border-bottom-right-radius: 26px;
 }
 
 .dl_details {
@@ -43,11 +46,13 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 0.9vmax;
+  font-size: 0.87rem;
+  /* font-size: 0.9vmax; */
   color: #5e6282;
   margin: auto;
-  width: 15vw;
-  padding-top: 3.5vh;
+  width: 230.4px;
+  padding-top: 27px;
+  /* padding-top: 3.5vh; */
 }
 
 .dl_amount {
@@ -57,20 +62,32 @@
 .dl_navigation {
   display: flex;
   margin: auto;
-  width: 15vw;
-  padding-top: 3.5vh;
+  width: 230.4px;
+  padding-top: 26.705px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  font-size: 0.8vmax;
-  line-height: 1.8vh;
+  font-size: 0.78rem;
+  /* font-size: 0.8vmax; */
+  line-height: 14px;
   color: #5e6282;
 }
 
 .dl_navimg {
-  padding-right: 0.8vw;
+  padding-right: 12px;
+  /* padding-right: 0.8vw; */
 }
 
 .dl_navimg img {
-  width: 2vh;
+  width: 15.26px;
+}
+
+@media all and (max-width: 600px) {
+  .dl_container {
+    /* width: 82%; */
+    flex-wrap: wrap;
+  }
+  .dl_card {
+    margin-bottom: 40px;
+  }
 }

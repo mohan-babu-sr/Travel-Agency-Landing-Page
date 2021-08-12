@@ -10,11 +10,11 @@ import TestimonialsPage from './components/Testimonials/TestimonialsPage';
 function App() {
   return (
     <div>
-      <HeroPage />
-      {/* <ServicesPage />
-      <DestinationsPage />
+      {/* <HeroPage />
+      <ServicesPage />
+      <DestinationsPage /> */}
       <BookATripPage />
-      <TestimonialsPage />
+      {/* <TestimonialsPage />
       <LogosPage />
       <SubscribePage />
       <FooterPage /> */}

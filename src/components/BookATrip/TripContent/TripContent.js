@@ -1,5 +1,6 @@
 import React from 'react';
 import './TripContent.css';
+import '../../../index.css';
 import V1 from '../../../content/value1.png';
 import V2 from '../../../content/value2.png';
 import V3 from '../../../content/value3.png';

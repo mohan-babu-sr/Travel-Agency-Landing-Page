@@ -2,6 +2,7 @@
   position: relative;
   height: 709.59px;
   padding-top: 22.89px;
+  /* border: 1px solid black; */
   /* background-image: url('../../content/HeroDecore.png');
   background-repeat: no-repeat;
   background-size: 368.64px 11.445px;
@@ -18,6 +19,8 @@
 }
 
 .hp_ellipse8 {
+  /* border: 1px solid black; */
+
   background-image: url('../../content/Ellipse 8.png');
   background-repeat: no-repeat;
   background-size: 4vw 50vh;
@@ -27,6 +30,7 @@
 }
 
 .hp_decore {
+
   background-image: url('../../content/Decore.png');
   background-repeat: no-repeat;
   background-size:  647.92px  675.84px;
@@ -36,4 +40,17 @@
   margin-left: auto;
   margin-top: -100vh;
   margin-bottom: auto;
+}
+
+@media all and (max-width: 600px) {
+  .hp_decore {
+    /* background-size:  347.92px  505.84px;
+    background-position: center;
+    width:  347.92px;
+    height:  505.84px;
+    margin-left: auto;
+    margin-top: -100vh;
+    margin-bottom: auto; */
+    background-image: none;
+  }
 }

@@ -18,8 +18,9 @@ code {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 1.3vmax;
-  line-height: 4vh;
+  font-size: 1.25rem;
+  /* font-size: 1.3vmax; */
+  line-height: 30.52px;
   color: #5e6282;
 }
 
@@ -27,7 +28,18 @@ code {
   font-family: 'Volkhov';
   font-style: normal;
   font-weight: bold;
-  font-size: 3vmax;
-  line-height: 10vh;
+  font-size: 2.88rem;
+  /* font-size: 3vmax; */
+  line-height: 76.3px;
   color: #14183e;
+}
+
+@media all and (max-width: 600px) {
+  .pageHeading {
+    font-size: 1rem;
+  }
+  
+  .pageSubheading {
+    font-size: 1.4rem;
+  }
 }
