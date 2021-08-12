@@ -5,12 +5,22 @@
 }
 
 .bt_container {
-  /* margin: auto; */
-  height: 99.7vh;
-  width: 98.5vw;
+  margin: auto;
+  height: 760.711px;
+  width: 1495px;
 }
 
 .bt_contents {
   display: flex;
   margin: auto;
+}
+
+@media all and (max-width: 600px) {
+  .bt_container {
+    height: 1010px;
+    width: 350px;
+  }
+  .bt_contents {
+    flex-wrap: wrap;
+  }
 }

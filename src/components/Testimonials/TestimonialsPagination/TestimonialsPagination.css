@@ -1,12 +1,14 @@
 .tmp_container {
-  height: 50vh;
-  width: 45vw;
+  /* height: 50vh; */
+  height: 381px;
+  width: 680px;
+  /* width: 45vw; */
   /* background: rgb(138, 138, 138); */
   margin-right: auto;
 }
 
 .slick-prev {
-  left: 697px;
+  left: 686px;
   top: 180px;
 }
 
@@ -35,50 +37,115 @@
 }
 
 .tmp_containerCard {
-  margin-top: 3vmax;
+  margin-top: 45px;
+  /* margin-top: 3vmax; */
 }
 
 .tmp_card {
-  width: 40vw;
-  height: 40vh;
+  width: 614.4px;
+  height: 305.2px;
 }
 
 .tmp_cardContent {
-  margin-top: 1vmax;
+  margin-top: 20px;
+  /* margin-top: 1vmax; */
   margin-left: auto;
-  margin-right: 4vmax;
-  width: 35vw;
-  height: 37vh;
+  margin-right:30px;
+  /* margin-right: 4vmax; */
+  width: 537.6px;
+  height: 282.31px;
 }
 
 .tmp_details {
   background: rgb(255, 255, 255);
-  margin-left: 2.6vmax;
-  margin-top: -1.8vmax;
+  margin-left: 35px;
+  /* margin-left: 2.6vmax; */
+  margin-top: -30px;
+  /* margin-top: -1.8vmax; */
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  width: 28vw;
-  height: 20vh;
+  width: 430.08px;
+  height: 152.6px;
   color: #5e6282;
-  line-height: 1.8vmax;
-  border-radius: 0.5vmax;
-  padding: 1.6vmax;
+  line-height: 28px;
+  /* line-height: 1.8vmax; */
+  border-radius: 10px;
+  /* border-radius: 0.5vmax; */
+  /* padding: 1.6vmax; */
+  padding: 25px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .tmp_desc {
-  font-size: 1vmax;
+  font-size: 0.95rem;
 }
 
 .tmp_auth {
-  margin-top: 1.5vmax;
+  margin-top: 24px;
+  /* margin-top: 1.5vmax; */
   font-weight: 600;
-  font-size: 1vmax;
+  /* font-size: 1vmax; */
+  font-size: 0.96rem;
 }
 
 .tmp_position {
-  font-size: 0.7vmax;
+  font-size: 0.65rem;
+}
+
+@media all and (max-width: 600px) {
+  .tmp_container {
+    height: 390px;
+    width: 350px;
+    margin-right: auto;
+  }
+  .tmp_containerCard {
+    margin-top: 20px;
+  }
+  
+  .tmp_card {
+    width: 350px;
+    height: 300px;
+  }
+  .slick-next {
+    right: -12px;
+  }
+  .slick-prev {
+    /* border: 1px solid black; */
+    left: 340px;
+  }
+
+  .tmp_cardContent {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right:30px;
+    width: 537.6px;
+    height: 290px;
+    /* background: rgb(233, 137, 137); */
+  }
+  
+  .tmp_details {
+    margin-left: 35px;
+    margin-top: -30px;
+    width: 240px;
+    height: 165px;
+    line-height: 25px;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  .tmp_desc {
+    font-size: 0.8rem;
+  }
+  
+  .tmp_auth {
+    margin-top: 24px;
+    font-size: 0.96rem;
+  }
+  
+  .tmp_position {
+    font-size: 0.65rem;
+  }
 }

@@ -12,7 +12,7 @@
 
 @media all and (max-width: 600px) {
   .dp_container {
-    /* height: 763px; */
+    height: 1700px;
     width: 372px;
   }
 }

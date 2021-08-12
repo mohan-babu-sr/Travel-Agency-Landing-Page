@@ -1,15 +1,17 @@
 .tmc_container {
-  height: 50vh;
-  width: 35vw;
-  /* background: rgb(136, 216, 116); */
+  height:381px;
+  /* width: 35vw; */
+  width: 537.6px;
   margin: auto;
-  margin-left: 10vw;
+  margin-left: 153.6px;
+  /* background: rgb(136, 216, 116); */
 }
 
 .tmc_carousel {
-  margin-top: 4vmax;
-  height: 30vh;
-  width: 35vw;
+  margin-top: 65px;
+  /* margin-top: 4vmax; */
+  height: 228.9px;
+  width: 537.6px;
 }
 
 .slick-dots {
@@ -17,19 +19,42 @@
 }
 
 .slick-dots li button:before {
-  font-size: 0.8vmax;
-  margin-top: 2vmax;
+  font-size: 0.8rem;
+  /* font-size: 0.8vmax; */
+  margin-top: 30px;
+  /* margin-top: 2vmax; */
 }
 
 .tmc_heading {
-  line-height: 2vmax;
+  /* line-height: 2vmax; */
   text-transform: uppercase;
-  margin-left: 0.3vmax;
+  margin-left: 5px;
 }
 
 .tmc_subheading {
-  margin-left: 0.3vmax;
-  font-size: 4vmax;
-  line-height: 5.5vmax;
+  margin-left: 5px;
+  font-size: 3.95rem;
+  line-height: 90px;
+  /* line-height: 5.5vmax; */
   text-transform: capitalize;
+}
+
+@media all and (max-width: 600px) {
+  .tmc_container {
+    height:320px;
+    width: 350px;
+    margin-left: 0px;
+  }
+  .tmc_carousel {
+    /* height: 220px; */
+    width: 350px;
+  }
+  .tmc_heading {
+    margin-left: 5px;
+  }
+  
+  .tmc_subheading {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
 }

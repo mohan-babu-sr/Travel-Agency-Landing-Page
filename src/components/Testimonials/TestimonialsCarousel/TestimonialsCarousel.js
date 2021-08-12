@@ -1,6 +1,8 @@
 import React from 'react';
 import './TestimonialsCarousel.css';
 import Slider from 'react-slick';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const carouselData = [
   {
@@ -18,6 +20,7 @@ const carouselData = [
 ];
 
 const TestimonialsCarousel = () => {
+  Aos.init();
   const settings = {
     dots: true,
     arrows: false,
@@ -26,7 +29,8 @@ const TestimonialsCarousel = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-
+  
+  console.log(carouselData);
   return (
     <div className='tmc_container'>
       <div className='tmc_carousel'>

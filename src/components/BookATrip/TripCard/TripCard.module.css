@@ -1,36 +1,78 @@
 .tcd_container {
-  width: 34vw;
-  height: 99.7vh;
+  width: 522.24px;
+  height: 760.711px;
   /* background: rgb(116, 116, 216); */
   margin: auto;
-  margin-left: -2vw;
+  margin-left: -30.72px;
 }
 
 .tcd_decore {
   margin-left: auto;
-  width: 40vw;
-  height: 49vw;
+  width: 614.4px;
+  height: 752.64px;
   border: 0.1vmax solid rgb(255, 255, 255);
   background-image: url('../../../content/tripDecore.png');
   background-repeat: no-repeat;
-  background-size: 35vw 60vh;
-  background-position-x: 6vw;
+  background-size: 537.6px 457.8px;
+  background-position-x: 92.16px;
 }
 
 .tcd_parentCard {
-  width: 24vw;
-  height: 25vw;
-  margin-top: 20vh;
-  margin-left: 4vw;
-  border-radius: 2vmax;
+  width:  368.64px;
+  height: 384px;
+  margin-top: 152.6px;
+  margin-left: 61.44px;
+  border-radius: 22px;
+  /* border-radius: 2vmax; */
+  /* border: 1px solid black; */
 }
 
 .tcd_parentCardImg1 {
-  margin-left: -5.3vw;
-  margin-top: -0.3vw;
+  margin-left: -81.40799999999999px;
+  margin-top: -4.608px;
 }
 .tcd_parentCardImg2 {
-  margin-left: 9.15vw;
-  margin-top: -36.3vw;
-  margin-bottom: 5.3vw;
+  margin-left: 140.544px;
+  margin-top: -557.568px;
+  margin-bottom: 81.40799999999999px;
+}
+
+@media all and (max-width: 600px) {
+  .tcd_container {
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+    /* background: rgb(116, 116, 216); */
+  }
+  .tcd_decore {
+    margin-left: 0px;
+    width: 350px;
+    height: 350px;
+    border: 0.1vmax solid rgb(255, 255, 255);
+    background-image: url('../../../content/tripDecore.png');
+    background-repeat: no-repeat;
+    background-size: 350px 457.8px;
+    background-position-x: 92.16px;
+  }
+  .tcd_parentCard {
+    width:  350px;
+    height: 384px;
+    margin-top: 10px;
+    margin-left: 0px;
+    /* border: 1px solid black; */
+
+  }
+  
+  .tcd_parentCardImg1 {
+    width: 400px;
+    margin-left: -50px;
+    margin-top: 0px;
+    /* border: 1px solid black; */
+
+  }
+  .tcd_parentCardImg2 {
+    margin-left: 100px;  width: 250px;
+    margin-top: -240px;
+    /* border: 1px solid black; */
+  }
 }

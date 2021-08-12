@@ -4,12 +4,23 @@
 }
 
 .tm_container {
-  height: 50vh;
-  width: 98.5vw;
   /* border: 1px solid rgb(253, 0, 0); */
+  margin: auto;
+  height: 381.5px;
+  width: 1512px;
 }
 
 .tm_contents {
   display: flex;
   margin: auto;
+}
+
+@media all and (max-width: 600px) {
+  .tm_container {
+    height: 650px;
+    width: 350px;
+  }
+  .tm_contents {
+    flex-wrap: wrap;
+  }
 }

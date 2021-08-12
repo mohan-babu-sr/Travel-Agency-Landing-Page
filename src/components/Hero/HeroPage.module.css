@@ -2,7 +2,6 @@
   position: relative;
   height: 709.59px;
   padding-top: 22.89px;
-  /* border: 1px solid black; */
   /* background-image: url('../../content/HeroDecore.png');
   background-repeat: no-repeat;
   background-size: 368.64px 11.445px;
@@ -43,7 +42,10 @@
 }
 
 @media all and (max-width: 600px) {
+  
   .hp_decore {
+  border: 1px solid black;
+
     /* background-size:  347.92px  505.84px;
     background-position: center;
     width:  347.92px;
@@ -51,6 +53,6 @@
     margin-left: auto;
     margin-top: -100vh;
     margin-bottom: auto; */
-    background-image: none;
+    display: none;
   }
 }

@@ -8,14 +8,15 @@ import SubscribePage from './components/Subscribe/SubscribePage';
 import TestimonialsPage from './components/Testimonials/TestimonialsPage';
 
 function App() {
+  
   return (
     <div>
-      {/* <HeroPage />
+      <HeroPage />
       <ServicesPage />
-      <DestinationsPage /> */}
+      <DestinationsPage />
       <BookATripPage />
-      {/* <TestimonialsPage />
-      <LogosPage />
+      <TestimonialsPage />
+      {/* <LogosPage />
       <SubscribePage />
       <FooterPage /> */}
     </div>
