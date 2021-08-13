@@ -72,7 +72,7 @@ input:focus {
 
 .inputField {
   height: 55px;
-  width:  353.28px;
+  width: 353.28px;
   background-color: transparent;
   border: none;
 }
@@ -110,7 +110,6 @@ input:focus {
     margin-top: 57.225px;
     margin-left: auto;
     margin-right: auto;
-    
   }
   .subscribe_heading {
     margin-top: 0px;
@@ -130,32 +129,38 @@ input:focus {
     border-radius: 10px;
     display: flex;
   }
-  
+
   .subscribe_icon {
     width: 46.08px;
     height: 50px;
   }
-  
+
   .subscribe_icon img {
     margin-left: 15.36px;
     margin-top: 15.36px;
   }
-  
+
   .subscribe_textField {
     width: 80%;
     height: 55px;
   }
-  
+
   .inputField {
     height: 55px;
-    width:  100%;
+    width: 100%;
   }
-  
+
+  .subButton {
+    width: 350px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: auto;
+  }
   .inputButton {
     border-radius: 8px;
-    width: 168.96px;
+    width: 160px;
     height: 50px;
-    margin-top: 20%;
-    margin-left: 50%;
+    margin-top: 10%;
+    margin-left: 95px;
+    /* margin-right: 50%; */
   }
 }

@@ -7,7 +7,7 @@
   height: 686.7px;
   width: 85%;
   margin: auto;
-  margin-top: 68.67px;
+  margin-top: 120px;
   /* border: 1px solid rgb(253, 0, 0); */
 }
 
@@ -34,6 +34,7 @@
     height: 1250px;
   }
   .sp_contents {
+    margin-top: -80px;
     width: 295px;
     /* margin-left: -150px; */
   }

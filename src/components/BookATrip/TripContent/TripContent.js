@@ -57,7 +57,7 @@ const TripContent = () => {
             data-aos-delay='50'
             data-aos-duration='2000'
           />
-          <div>
+          <div className='tc_valuesContainer'>
             <div
               className='tc_valuesH'
               data-aos='fade-up'

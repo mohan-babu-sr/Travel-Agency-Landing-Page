@@ -16,11 +16,13 @@
 
 @media all and (max-width: 600px) {
   .logos_container {
-    height: 140px;
+    height: 120px;
     width: 40%;
+    /* border: 1px solid black; */
+    border-radius: 100px;
   }
   .logos_container img {
-    margin-right:40px;
+    margin-right: 40px;
     margin-left: 40px;
   }
 }

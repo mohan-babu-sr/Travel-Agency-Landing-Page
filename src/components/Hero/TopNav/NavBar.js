@@ -1,8 +1,30 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import Logo from '../../../content/Logo.svg';
+
 function NavBar() {
   const [open, setOpen] = useState(false);
+
+  // window.onbeforeunload = function () {
+  //   setOpen(false);
+
+  //   return setTimeout(() => {
+  //     alert('Thanks for visiting the site..!');
+  //   }, 1000);
+  // };
+  // window.onpopstate = () => {
+  //   setOpen(false);
+
+  //   return setTimeout(() => {
+  //     alert('Thanks for visiting the site..!');
+  //   }, 1000);
+  // };
+
+  window.addEventListener('scroll', () => {
+    console.log('scrolled!');
+    setOpen(false);
+  });
+
   return (
     <div>
       <nav className='container'>

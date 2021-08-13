@@ -25,7 +25,7 @@ const SubscribePage = () => {
               />
             </div>
           </div>
-          <div>
+          <div className={classes.subButton}>
             <button type='submit' className={classes.inputButton}>
               Subscribe
             </button>

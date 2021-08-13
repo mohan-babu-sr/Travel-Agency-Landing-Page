@@ -2,13 +2,12 @@
   padding: 0;
   box-sizing: content-box;
   /* border: 1px solid rgb(0, 0, 0); */
-
 }
 
-.hero_container { 
+.hero_container {
   /* position: absolute; */
   margin: 0;
-  
+
   width: 98.5vw;
 }
 
@@ -24,7 +23,6 @@
 }
 
 .hero_çontent {
-  
   margin-top: 53px;
   /* margin-top: 7vh; */
   width: 600px;
@@ -141,7 +139,7 @@
   background-image: url('../../../content/Traveller 1.png');
   background-repeat: no-repeat;
   background-size: 675.84px 694.33px;
-  width:645.12px;
+  width: 645.12px;
   height: 671.44px;
   margin-left: auto;
   margin-right: -50px;
@@ -149,42 +147,42 @@
 }
 
 @media all and (max-width: 600px) {
-.hero_çontents {
-  background-image: none;
-  width: 365px;
-}
-.hero_çontent { 
-  margin-left: 15px;
-  margin-right: auto;
-  width: 300px;
-}
+  .hero_çontents {
+    background-image: none;
+    width: 365px;
+  }
+  .hero_çontent {
+    margin-left: 15px;
+    margin-right: auto;
+    width: 300px;
+  }
   .hero_content_1 {
-    position:inherit;
+    /* border: 1px solid rgb(9, 187, 89); */
+    position: inherit;
     font-size: 5vmax;
     line-height: 6vmax;
-    width: 10ch;
+    width: 11ch;
     margin-bottom: 1vmax;
   }
   .hero_content_1 span {
     font-size: 1.61vmax;
   }
   .hero_content_2 {
-    width: 60vw;
+    width: 65vw;
     font-size: 1.3vmax;
     line-height: 2.5vh;
     margin-bottom: 2vmax;
   }
-    .hc_traveller1 {
-      background-size: 200px 200px;
-      width: 200px;
-      height: 200px;
-      margin-left: 70px;
-      margin-right: auto;
-      margin-top: 30px;
-    position:inherit;
+  .hc_traveller1 {
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: auto;
+    margin-top: 30px;
+    position: inherit;
 
-      /* display: none; */
-    
+    /* display: none; */
   }
   .hero_div_btn {
     width: 349.36px;

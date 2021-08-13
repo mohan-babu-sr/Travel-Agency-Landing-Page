@@ -18,7 +18,7 @@
 }
 
 .tcd_parentCard {
-  width:  368.64px;
+  width: 368.64px;
   height: 384px;
   margin-top: 152.6px;
   margin-left: 61.44px;
@@ -48,30 +48,27 @@
     margin-left: 0px;
     width: 350px;
     height: 350px;
-    border: 0.1vmax solid rgb(255, 255, 255);
-    background-image: url('../../../content/tripDecore.png');
-    background-repeat: no-repeat;
-    background-size: 350px 457.8px;
-    background-position-x: 92.16px;
+    background-size: 250px 400px;
+    background-position-x: 110px;
+    background-position-y: -20px;
+    /* border: 1px solid black; */
   }
   .tcd_parentCard {
-    width:  350px;
+    width: 350px;
     height: 384px;
     margin-top: 10px;
     margin-left: 0px;
-    /* border: 1px solid black; */
-
   }
-  
+
   .tcd_parentCardImg1 {
     width: 400px;
     margin-left: -50px;
     margin-top: 0px;
     /* border: 1px solid black; */
-
   }
   .tcd_parentCardImg2 {
-    margin-left: 100px;  width: 250px;
+    margin-left: 100px;
+    width: 250px;
     margin-top: -240px;
     /* border: 1px solid black; */
   }
