@@ -1,12 +1,13 @@
 .subscribe_container {
   border: 1px solid rgb(255, 255, 255);
-  height: 65vh;
-  width: 92vw;
+  /* border: 1px solid rgb(247, 0, 0); */
+  height: 495.95px;
+  width: 1413.12px;
   margin: auto;
   background-image: url('../../content/subscribeBG.jpg');
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-size: 92vw 59vh;
+  background-size: 1413.12px 450.17px;
 }
 
 input:focus {
@@ -14,36 +15,40 @@ input:focus {
 }
 
 .subscribe_background {
-  width: 78vw;
-  height: 50vh;
-  margin-top: 7.5vh;
+  width: 1198.08px;
+  /* width: 78vw; */
+  height: 381.5px;
+  margin-top: 57.225px;
   margin-left: auto;
   margin-right: auto;
+  /* border: 1px solid rgb(0, 0, 0); */
 }
 
 .subscribe_heading {
-  /* border: 1px solid rgb(0, 0, 0); */
   margin: auto;
-  margin-top: 8vmax;
-  width: 60vw;
+  margin-top: 124px;
+  width: 921.6px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 600;
-  font-size: 2.2vmax;
-  line-height: 7vh;
+  font-size: 2.12rem;
+  /* font-size: 2.2vmax; */
+  line-height: 53.41px;
   text-align: center;
   /* color: #5e6282; */
 }
 
 .subscribe_content {
   margin: auto;
-  margin-top: 4vmax;
-  width: 40vw;
+  margin-top: 62px;
+  /* margin-top: 4vmax; */
+  width: 614.4px;
   display: flex;
 }
 .subscribe_form {
   background-color: rgb(255, 255, 255);
-  border-radius: 0.5vmax;
+  border-radius: 10px;
+  /* border-radius: 0.5vmax; */
   font-family: 'Montserrat', sans-serif;
   color: #5d4739;
   display: flex;
@@ -51,37 +56,106 @@ input:focus {
 
 .subscribe_icon {
   margin: auto;
-  width: 3vw;
-  height: 6.5vh;
+  width: 46.08px;
+  height: 50px;
+  /* height: 6.5vh; */
 }
 
 .subscribe_icon img {
-  margin-left: 1vw;
-  margin-top: 1vw;
+  margin-left: 15.36px;
+  margin-top: 15.36px;
 }
 
 .subscribe_textField {
-  height: 6.5vh;
+  height: 55px;
 }
 
 .inputField {
-  height: 6.4vh;
-  width: 23vw;
+  height: 55px;
+  width:  353.28px;
   background-color: transparent;
   border: none;
 }
 
 .inputButton {
   background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
-  border-radius: 0.5vmax;
-  width: 11vw;
-  height: 6.5vh;
+  border-radius: 8px;
+  /* border-radius: 0.5vmax; */
+  width: 168.96px;
+  height: 50px;
   color: white;
   font-family: 'Open Sans';
   border: none;
-  margin-left: 2.6vmax;
+  margin-left: 40px;
+  /* margin-left: 2.6vmax; */
 }
 
 .inputButton:hover {
   background: #ff7d68;
+}
+
+@media all and (max-width: 600px) {
+  .subscribe_container {
+    /* border: 1px solid rgb(0, 0, 0); */
+    border-radius: 20px;
+    height: 400px;
+    width: 95%;
+    background-size: 95% 450.17px;
+    background-image: none;
+    background-color: #f8f7fd;
+  }
+  .subscribe_background {
+    width: 100%;
+    height: 381.5px;
+    margin-top: 57.225px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .subscribe_heading {
+    margin-top: 0px;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  /*  */
+  .subscribe_content {
+    margin-top: 62px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .subscribe_form {
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+    display: flex;
+  }
+  
+  .subscribe_icon {
+    width: 46.08px;
+    height: 50px;
+  }
+  
+  .subscribe_icon img {
+    margin-left: 15.36px;
+    margin-top: 15.36px;
+  }
+  
+  .subscribe_textField {
+    width: 80%;
+    height: 55px;
+  }
+  
+  .inputField {
+    height: 55px;
+    width:  100%;
+  }
+  
+  .inputButton {
+    border-radius: 8px;
+    width: 168.96px;
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 50%;
+  }
 }

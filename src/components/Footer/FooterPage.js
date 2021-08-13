@@ -64,9 +64,10 @@ const FooterPage = () => {
           </div>
           <div className={classes.footer_footer33}>
             {footerStore.map((data, idx) => (
+              <div style={{margin:'auto'}}>
               <a href={data.link} target='_blank' rel='noreferrer' key={idx}>
                 <img src={data.image} alt='img' />
-              </a>
+              </a></div>
             ))}
           </div>
         </div>

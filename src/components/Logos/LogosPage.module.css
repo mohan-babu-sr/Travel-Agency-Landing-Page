@@ -1,15 +1,26 @@
 .logos_container {
   /* border: 1px solid blue; */
-  height: 15vh;
-  width: 78vw;
+  height: 114.45px;
+  width: 1198.08px;
   margin: auto;
   overflow: hidden;
 }
 
 .logos_container img {
-  margin-top: 4.5vmax;
-  margin-right: 4vmax;
-  margin-left: 4vmax;
-  width: 7vw;
-  height: 4.5vh;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-left: 40px;
+  width: 107.52px;
+  height: 35px;
+}
+
+@media all and (max-width: 600px) {
+  .logos_container {
+    height: 140px;
+    width: 40%;
+  }
+  .logos_container img {
+    margin-right:40px;
+    margin-left: 40px;
+  }
 }

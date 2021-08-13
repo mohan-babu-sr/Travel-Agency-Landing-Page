@@ -16,9 +16,9 @@ function App() {
       <DestinationsPage />
       <BookATripPage />
       <TestimonialsPage />
-      {/* <LogosPage />
+      <LogosPage />
       <SubscribePage />
-      <FooterPage /> */}
+      <FooterPage />
     </div>
   );
 }
